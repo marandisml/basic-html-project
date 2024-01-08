@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  background: #779b63;
+  height: 100%;
+}
+
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 130px 10px 190px;
+}
+
+.content-left-col,
+.content-right-col {
+  flex-basis: 50%;
+}
+
+.content-left-col {
+  margin-top: 90px;
+}
+
+.content-left-col h2 {
+  font-size: 28px;
+  margin-left: 30px;
+  font-family: Arial;
+  font-weight: 300;
+}
+
+.content-left-col img {
+  height: 106px;
+  margin-left: 35px;
+}
+
+.content-right-col form {
+  width: 400px;
+  background: #16a085; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f4d03f,
+    #16a085
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f4d03f,
+    #16a085
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-left: 100px;
+}
+
+.content-right-col form input {
+  width: 100%;
+  padding: 20px;
+  outline: none;
+  border: 0;
+  margin-bottom: 20px;
+  border: 1px solid #dddd;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #323233;
+}
+
+.content-right-col form input:focus {
+  border: 1px solid #1877f2;
+}
+
+::placeholder {
+  font-size: 17px;
+  color: #5f5d5ddd;
+}
+
+.content-right-col form input {
+  background: #c6f2ad;
+}
+
+.content-right-col form input[type="submit"] {
+  background: #1877f2;
+  outline: none;
+  border: none;
+  font-size: 25px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.content-right-col form a {
+  text-decoration: none;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.content-right-col form a:hover {
+  text-decoration: underline;
+}
+
+.content-right-col form hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+}
+
+.content-right-col form button {
+  background: #42b72a;
+  border: 0;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 30px 0 10px;
+  transition: 0.4s;
+}
+
+.content-right-col form button:hover {
+  background: #37a022;
+}
+
+.bottom-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bottom-text p {
+  text-align: center;
+  margin-left: 90px;
+}
+
+.bottom-text a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
